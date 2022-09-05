@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    padding: 2rem 0 1rem 0;
+    z-index: 1;
+    width: 100%;
+}
+
+
+header a{
+    text-decoration: none;
+    color: white;
+
+    position: relative;
+}
+
+header a:hover{
+    color: black;
+
+}
+
+
+
+
+.zzz a{
+    color: black;
+    transition: .5s;
+    
+}
+
+.zzz a:hover{
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    padding-right: 40px;
+}
+
+
+header .logo img{
+    max-width: 177px;
+    margin-right: 5rem;
+
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav ul .kuk{
+    padding: 3px 5px 0px 24px
+}
+
+
+
+header .zzz a{
+    background-color: white;
+    margin-left: 5rem;
+    padding: 1rem;
+ 
+    border-radius: 27px;
+    
+}
+
+.mid{
+
+    padding: 0 9rem 0px 9rem;
+    display: flex;
+    justify-content: space-between;
+    
+    height:820px;;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Banner-home-shop.jpg?id=22130);
+}
+
+.mid .left h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.mid .left p{
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.mid .left a{
+    background-color: rgb(0, 107, 166);
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 14px 29px 14px 29px;
+    color: #fff;
+    transition: .5s;
+
+}
+.mid .left a:hover{
+  background-color: rgba(56, 169, 224, 0.868);
+}
+
+
+.medical{
+    text-align: center;
+}
+
+.medical h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.medical h1::before{
+    content: "Masks";
+    position: absolute;
+    opacity: 0.05;
+    bottom: -42px;
+    right: -87px;
+    font-size: 140px;
+}
+
+
+
+.sekiller{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 120px 0 120px;
+    flex-wrap: wrap;
+}
+
+.qlavni p{
+    color: #000000ad;
+}
+
+.qlavni a{
+    color: #000000ad;
+    text-decoration: none;
+}
+
+
+.qlavni{
+    position: relative;
+    width: 26%;
+    margin: 50px 40px 0 40px;
+    opacity: 0.7;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+.qlavni:hover{
+    opacity: 1;
+    font-size: 20px ;
+    box-shadow: 0px 0px 10px 0px #006ba6;
+
+
+}
+
+.qlavni img{
+    width: 100%;
+}
+
+
+.sagda-yuxarida{
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    background-color: white;
+    padding: 15px 5px 15px 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: .5s;
+
+}
+
+.sagda-yuxarida:hover{
+    padding: 5%;
+    font-size: 20px;
+
+}
+
+.sagda-yuxarida a:hover{
+    color: #006ba6;
+}
+
+
+.solda-asagida{
+    position: absolute;
+    bottom: 24px;
+    left: 19px;
+}
+
+
+.sagda-asagida{
+    position: absolute;
+    bottom: 27px;
+    right: 47px;
+}
+
+.Explore{
+    text-align: center;
+}
+.Explore a{
+    background-color: #006ba6;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 34px;
+    padding: 14px 29px 14px 29px;
+    color: #fff;
+    display: inline-block;
+    transition: .5s;
+}
+
+.Explore a:hover{
+    background-color: rgba(56, 169, 224, 0.868);
+  }
+  
+
+.last{
+    padding: 0 9rem 0px 9rem;
+    height:500px;;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    opacity: 0.5;
+    background-image: url(    https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083) ;
+}
+
+.last:hover{
+    opacity: 1;
+
+}
+   
+.last .lastdiv{
+    position: absolute;
+    left: 10%;
+    top: 12rem;
+    text-align: center;
+    width: 50%;
+    color: white;
+
+}
+
+.lastdiv a{
+    background-color: #006ba6;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 34px;
+    padding: 14px 29px 14px 29px;
+    color: #006ba6;
+    display: inline-block;
+    background-color: #fff;
+    transition: .5s;
+}
+.lastdiv a:hover{
+    background-color: black;
+    color: white;
+}
+
+
